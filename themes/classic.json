@@ -1,0 +1,10 @@
+{
+  "name": "classic",
+  "accent": "#333333",
+  "heading_font": "NewsBold",
+  "body_size": 10,
+  "gap": 24,
+  "margin": 35,
+  "layout": "grid",
+  "body_font": "UI"
+}

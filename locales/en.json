@@ -1,0 +1,108 @@
+{
+  "eyebrow": "PERSONAL NEWS BRIEF",
+  "strap": "Beyond the headlines. Your day on one page.",
+  "window": "Last {hours} hours",
+  "count": "{count} stories",
+  "source": "Source",
+  "excerpt": "Publisher abstract",
+  "model": "AI summary",
+  "continued": "...",
+  "footer": "Compiled from publisher abstracts. Click a headline for the full story.",
+  "ai_footer": "AI summaries of publisher abstracts; verify details with the original source.",
+  "warnings": "{count} warnings",
+  "coverage": "No match: {topics}",
+  "gazette": "THE DAILY GAZETTE",
+  "motto": "NEWS / SCIENCE / TECHNOLOGY / CULTURE",
+  "page": "Page {page} / {pages}",
+  "months": [
+    "",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "code": "en",
+  "native_name": "English",
+  "language_name": "English",
+  "date_format": "{day} {month} {year}",
+  "default_timezone": "UTC",
+  "discovery": "Discovery",
+  "update": "UPDATE",
+  "context": "Context",
+  "why_it_matters": "Why it matters",
+  "daily_concept": "DAILY CONCEPT",
+  "anagram": "ANAGRAM",
+  "anagram_hint": "Unscramble the letters.",
+  "sudoku": "SUDOKU 4x4",
+  "intro": "{count} stories and {updates} updates. Focus: {topics}.",
+  "preview": "PREVIEW",
+  "weather_conditions": [
+    "Clear",
+    "Cloudy",
+    "Fog",
+    "Rain",
+    "Snow",
+    "Thunderstorm"
+  ],
+  "anagram_words": [
+    "ALGORITHM",
+    "COMPUTER",
+    "LIBRARY",
+    "TELESCOPE"
+  ],
+  "concepts": [
+    {
+      "title": "Open source",
+      "text": "Software whose source code can be inspected, modified and shared under its license terms."
+    },
+    {
+      "title": "Peer review",
+      "text": "Evaluation of research methods and findings by specialists before publication. It does not guarantee correctness."
+    },
+    {
+      "title": "Archive",
+      "text": "An organized collection preserving records and documents for later consultation and historical research."
+    },
+    {
+      "title": "Montage",
+      "text": "The arrangement of images and sounds in cinema to shape time, rhythm and meaning."
+    }
+  ],
+  "stopwords": [
+    "the",
+    "and",
+    "for",
+    "with",
+    "from",
+    "this",
+    "that",
+    "has",
+    "have"
+  ],
+  "interest_names": {
+    "world": "World affairs",
+    "technology": "Technology",
+    "science": "Science",
+    "culture": "Culture",
+    "business": "Business & economy",
+    "environment": "Environment"
+  },
+  "suggested_interest_names": {
+    "open-source": "Linux & open source",
+    "ai": "AI & programming",
+    "cinema": "Cinema & culture",
+    "books": "Books & history",
+    "games": "Games",
+    "hardware": "Hardware",
+    "education": "Education"
+  },
+  "reading_time": "~{minutes} min"
+}

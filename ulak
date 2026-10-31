@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PROJECT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+if [[ ! -x "$PROJECT_DIR/.venv/bin/python" ]]; then
+  echo "Run: python -m venv .venv && .venv/bin/pip install -r requirements.txt" >&2
+  exit 1
+fi
+exec "$PROJECT_DIR/.venv/bin/python" "$PROJECT_DIR/daily.py" "$@"

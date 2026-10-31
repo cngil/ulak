@@ -1,0 +1,10 @@
+{
+  "name": "compact",
+  "accent": "#185346",
+  "heading_font": "UIBold",
+  "body_size": 9.5,
+  "gap": 20,
+  "margin": 32,
+  "layout": "grid",
+  "body_font": "UI"
+}

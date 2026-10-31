@@ -1,0 +1,10 @@
+{
+  "name": "gazette",
+  "accent": "#111111",
+  "heading_font": "NewsBold",
+  "body_font": "News",
+  "body_size": 10,
+  "gap": 22,
+  "margin": 32,
+  "layout": "newspaper"
+}

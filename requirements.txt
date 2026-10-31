@@ -1,0 +1,6 @@
+reportlab>=4.4,<6
+feedparser>=6.0.11,<7
+jsonschema>=4.23,<5
+pypdf>=5,<7
+Pillow>=10,<14
+trafilatura>=2,<3

@@ -1,0 +1,106 @@
+{
+  "eyebrow": "KİŞİSEL HABER BÜLTENİ",
+  "strap": "Başlıkların ötesinde. Bir sayfada gündem.",
+  "window": "Son {hours} saat",
+  "count": "{count} haber",
+  "source": "Kaynak",
+  "excerpt": "Kaynak özeti",
+  "model": "Yapay zekâ özeti",
+  "continued": "...",
+  "footer": "Kaynak özetlerinden derlendi. Tam haber için başlığa tıkla.",
+  "ai_footer": "Yapay zekâ ile kaynak özetlerinden derlendi; ayrıntıları asıl kaynaktan doğrula.",
+  "warnings": "{count} uyarı",
+  "coverage": "Eşleşme yok: {topics}",
+  "gazette": "GÜNLÜK GAZETE",
+  "motto": "HABER / BİLİM / TEKNOLOJİ / KÜLTÜR",
+  "page": "Sayfa {page} / {pages}",
+  "months": [
+    "",
+    "Ocak",
+    "Şubat",
+    "Mart",
+    "Nisan",
+    "Mayıs",
+    "Haziran",
+    "Temmuz",
+    "Ağustos",
+    "Eylül",
+    "Ekim",
+    "Kasım",
+    "Aralık"
+  ],
+  "code": "tr",
+  "native_name": "Türkçe",
+  "language_name": "Turkish",
+  "date_format": "{day} {month} {year}",
+  "default_timezone": "UTC",
+  "discovery": "Keşif",
+  "update": "GÜNCELLEME",
+  "context": "Bağlam",
+  "why_it_matters": "Önemi",
+  "daily_concept": "GÜNÜN KAVRAMI",
+  "anagram": "ANAGRAM",
+  "anagram_hint": "Harfleri sırala.",
+  "sudoku": "SUDOKU 4x4",
+  "intro": "{count} haber ve {updates} güncelleme. Odak: {topics}.",
+  "preview": "ÖNİZLEME",
+  "weather_conditions": [
+    "Açık",
+    "Bulutlu",
+    "Sisli",
+    "Yağmurlu",
+    "Karlı",
+    "Fırtınalı"
+  ],
+  "anagram_words": [
+    "ALGORİTMA",
+    "BİLGİSAYAR",
+    "KÜTÜPHANE",
+    "GÖZLEMEVİ"
+  ],
+  "concepts": [
+    {
+      "title": "Açık kaynak",
+      "text": "Kaynak kodu, lisansının koşulları çerçevesinde incelenebilen, değiştirilebilen ve paylaşılabilen yazılım."
+    },
+    {
+      "title": "Hakem değerlendirmesi",
+      "text": "Bir araştırmanın yayımlanmadan önce alan uzmanlarınca yöntem ve bulgular açısından incelenmesi. Hatasızlık garantisi değildir."
+    },
+    {
+      "title": "Arşiv",
+      "text": "Belgeleri ve kayıtları düzenli biçimde koruyan bir koleksiyon; geçmişe dönük kaynak araştırmasının temel araçlarından biri."
+    },
+    {
+      "title": "Montaj",
+      "text": "Sinemada görüntü ve ses parçalarının sıralanmasıyla zaman, ritim ve anlam kurma işlemi."
+    }
+  ],
+  "stopwords": [
+    "bir",
+    "ile",
+    "için",
+    "olan",
+    "yeni",
+    "daha",
+    "olarak"
+  ],
+  "interest_names": {
+    "world": "Dünya",
+    "technology": "Teknoloji",
+    "science": "Bilim",
+    "culture": "Kültür",
+    "business": "İş dünyası & ekonomi",
+    "environment": "Çevre"
+  },
+  "suggested_interest_names": {
+    "open-source": "Linux ve açık kaynak",
+    "ai": "Yapay zekâ ve programlama",
+    "cinema": "Sinema ve kültür",
+    "books": "Kitaplar ve tarih",
+    "games": "Oyunlar",
+    "hardware": "Donanım",
+    "education": "Eğitim"
+  },
+  "reading_time": "~{minutes} dk"
+}

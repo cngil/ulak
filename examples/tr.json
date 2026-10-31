@@ -1,0 +1,209 @@
+{
+  "$schema": "../config.schema.json",
+  "language": "tr",
+  "timezone": "UTC",
+  "name": "",
+  "hours": 24,
+  "max_articles": 8,
+  "publisher_limit": 4,
+  "theme": "compact",
+  "interests": [
+    {
+      "id": "world",
+      "name": "Dünya",
+      "keywords": [
+        "dünya",
+        "hükümet",
+        "seçim",
+        "diplomasi",
+        "uluslararası"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "technology",
+      "name": "Teknoloji",
+      "keywords": [
+        "teknoloji",
+        "yazılım",
+        "internet",
+        "bilişim",
+        "yenilik"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "science",
+      "name": "Bilim",
+      "keywords": [
+        "bilim",
+        "araştırma",
+        "uzay",
+        "keşif",
+        "çalışma"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "culture",
+      "name": "Kültür",
+      "keywords": [
+        "kültür",
+        "sanat",
+        "sinema",
+        "müzik",
+        "edebiyat"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "business",
+      "name": "İş dünyası & ekonomi",
+      "keywords": [
+        "ekonomi",
+        "ticaret",
+        "piyasa",
+        "sanayi",
+        "şirket"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "environment",
+      "name": "Çevre",
+      "keywords": [
+        "çevre",
+        "iklim",
+        "enerji",
+        "koruma",
+        "biyoçeşitlilik"
+      ],
+      "weight": 1
+    }
+  ],
+  "sources": [
+    {
+      "id": "bbc-tr",
+      "name": "BBC Türkçe",
+      "url": "https://feeds.bbci.co.uk/turkce/rss.xml",
+      "language": "tr",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "id": "dw-tr",
+      "name": "DW Türkçe",
+      "url": "https://rss.dw.com/xml/rss-tur-all",
+      "language": "tr",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": [
+        "www.dw.com",
+        "dw.com"
+      ]
+    }
+  ],
+  "exclude": [
+    "sponsorlu",
+    "reklam",
+    "kupon"
+  ],
+  "preferred_publishers": [],
+  "summary": {
+    "provider": "publisher",
+    "max_words": 55,
+    "endpoint": "http://127.0.0.1:11434",
+    "model": "",
+    "timeout_seconds": 90,
+    "api_key_env": "",
+    "parameters": {},
+    "retries": 1,
+    "instructions": "",
+    "think": null
+  },
+  "layout": {
+    "pages": 1,
+    "articles_per_page": 8,
+    "columns": 2,
+    "paper_size": "A4",
+    "adaptive": true
+  },
+  "print": {
+    "printer": "",
+    "duplex": "off",
+    "copies": 1,
+    "color": "monochrome",
+    "reverse_backs": false,
+    "auto": false,
+    "printers": [],
+    "quality": "normal",
+    "preflight": true,
+    "prevent_duplicates": true
+  },
+  "storage": {
+    "keep": true,
+    "directory": "output/pdf",
+    "save_manifest": true,
+    "max_editions": 30,
+    "max_age_hours": 720,
+    "max_total_mb": 100,
+    "max_files": 0
+  },
+  "visuals": {
+    "mode": "none",
+    "grayscale": true,
+    "max_images": 1
+  },
+  "weather": {
+    "enabled": false,
+    "label": "",
+    "latitude": 0,
+    "longitude": 0
+  },
+  "puzzle": {
+    "enabled": false,
+    "type": "sudoku4"
+  },
+  "branding": {
+    "title": "ULAK",
+    "subtitle": "",
+    "tagline": "",
+    "footer": ""
+  },
+  "editorial": {
+    "mode": "heuristic",
+    "candidate_limit": 40,
+    "discovery_count": 1,
+    "reading_minutes": 5,
+    "words_per_minute": 180,
+    "cluster_threshold": 0.55,
+    "structured_briefs": true,
+    "introduction_every": 3,
+    "concept": true,
+    "cache": true,
+    "brief_retries": 1
+  },
+  "memory": {
+    "enabled": false,
+    "directory": ".state",
+    "repeat_days": 7,
+    "max_issues": 100,
+    "max_cache_entries": 500
+  },
+  "references": {
+    "domains": true,
+    "qr": false
+  },
+  "personalization": {
+    "vault_path": "",
+    "suggest_every": 7
+  }
+}

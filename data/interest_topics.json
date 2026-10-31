@@ -1,0 +1,61 @@
+{
+  "open-source": {
+    "keywords": [
+      "open source",
+      "free software",
+      "software license",
+      "linux"
+    ]
+  },
+  "ai": {
+    "keywords": [
+      "artificial intelligence",
+      "yapay zeka",
+      "machine learning",
+      "programming",
+      "algorithms",
+      "python"
+    ]
+  },
+  "cinema": {
+    "keywords": [
+      "film",
+      "cinema",
+      "movies",
+      "director",
+      "documentaries"
+    ]
+  },
+  "books": {
+    "keywords": [
+      "books",
+      "reading",
+      "history",
+      "literature"
+    ]
+  },
+  "games": {
+    "keywords": [
+      "games",
+      "gaming",
+      "steam"
+    ]
+  },
+  "hardware": {
+    "keywords": [
+      "hardware",
+      "processor",
+      "computer",
+      "electronics"
+    ]
+  },
+  "education": {
+    "keywords": [
+      "education",
+      "university",
+      "school",
+      "teaching",
+      "learning"
+    ]
+  }
+}

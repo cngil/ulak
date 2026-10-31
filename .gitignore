@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+output/
+.cache/
+config.local.json
+*.local.json
+.ulak-edition-*.json
+.state/

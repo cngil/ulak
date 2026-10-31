@@ -1,0 +1,264 @@
+{
+  "$schema": "../config.schema.json",
+  "language": "en",
+  "timezone": "UTC",
+  "name": "",
+  "hours": 24,
+  "max_articles": 8,
+  "publisher_limit": 4,
+  "theme": "compact",
+  "interests": [
+    {
+      "id": "world",
+      "name": "World affairs",
+      "keywords": [
+        "world",
+        "government",
+        "election",
+        "diplomacy",
+        "international"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "keywords": [
+        "technology",
+        "software",
+        "internet",
+        "computing",
+        "innovation"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "keywords": [
+        "science",
+        "research",
+        "space",
+        "discovery",
+        "study"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "culture",
+      "name": "Culture",
+      "keywords": [
+        "culture",
+        "arts",
+        "film",
+        "music",
+        "literature"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "business",
+      "name": "Business & economy",
+      "keywords": [
+        "business",
+        "economy",
+        "trade",
+        "market",
+        "industry"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "keywords": [
+        "environment",
+        "climate",
+        "energy",
+        "conservation",
+        "biodiversity"
+      ],
+      "weight": 1
+    }
+  ],
+  "sources": [
+    {
+      "id": "bbc-world",
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "language": "en",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "id": "guardian-world",
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/world/rss",
+      "language": "en",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": [
+        "www.theguardian.com",
+        "theguardian.com"
+      ]
+    },
+    {
+      "id": "bbc-business",
+      "name": "BBC Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "language": "en",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "id": "bbc-culture",
+      "name": "BBC Culture",
+      "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "language": "en",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "id": "bbc-tech",
+      "name": "BBC Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "language": "en",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "id": "science-daily",
+      "name": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "language": "en",
+      "enabled": true,
+      "quality": 0.5,
+      "allow_article_fetch": false,
+      "article_hosts": []
+    }
+  ],
+  "exclude": [
+    "sponsored",
+    "advertisement",
+    "coupon"
+  ],
+  "preferred_publishers": [],
+  "summary": {
+    "provider": "publisher",
+    "max_words": 55,
+    "endpoint": "http://127.0.0.1:11434",
+    "model": "",
+    "timeout_seconds": 90,
+    "api_key_env": "",
+    "parameters": {},
+    "retries": 1,
+    "instructions": "",
+    "think": null
+  },
+  "layout": {
+    "pages": 1,
+    "articles_per_page": 8,
+    "columns": 2,
+    "paper_size": "A4",
+    "adaptive": true
+  },
+  "print": {
+    "printer": "",
+    "duplex": "off",
+    "copies": 1,
+    "color": "monochrome",
+    "reverse_backs": false,
+    "auto": false,
+    "printers": [],
+    "quality": "normal",
+    "preflight": true,
+    "prevent_duplicates": true
+  },
+  "storage": {
+    "keep": true,
+    "directory": "output/pdf",
+    "save_manifest": true,
+    "max_editions": 30,
+    "max_age_hours": 720,
+    "max_total_mb": 100,
+    "max_files": 0
+  },
+  "visuals": {
+    "mode": "none",
+    "grayscale": true,
+    "max_images": 1
+  },
+  "weather": {
+    "enabled": false,
+    "label": "",
+    "latitude": 0,
+    "longitude": 0
+  },
+  "puzzle": {
+    "enabled": false,
+    "type": "sudoku4"
+  },
+  "branding": {
+    "title": "ULAK",
+    "subtitle": "",
+    "tagline": "",
+    "footer": ""
+  },
+  "editorial": {
+    "mode": "heuristic",
+    "candidate_limit": 40,
+    "discovery_count": 1,
+    "reading_minutes": 5,
+    "words_per_minute": 180,
+    "cluster_threshold": 0.55,
+    "structured_briefs": true,
+    "introduction_every": 3,
+    "concept": true,
+    "cache": true,
+    "brief_retries": 1
+  },
+  "memory": {
+    "enabled": false,
+    "directory": ".state",
+    "repeat_days": 7,
+    "max_issues": 100,
+    "max_cache_entries": 500
+  },
+  "references": {
+    "domains": true,
+    "qr": false
+  },
+  "personalization": {
+    "vault_path": "",
+    "suggest_every": 7
+  }
+}
